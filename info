@@ -1,0 +1,29 @@
+
+Wrote new keypair to /home/zaif/.config/solana/id.json
+==========================================================================
+pubkey: Dc8rXdNAKpdz9iA5qxnLTQZ83UJGYytVmGU9TQFpP1CU
+==========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+tag common kit stomach depart cattle emotion stay cake ozone action turkey
+==========================================================================
+
+
+Config File: /home/zaif/.config/solana/cli/config.yml
+RPC URL: https://api.devnet.solana.com 
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: /home/zaif/.config/solana/id.json // [74,133,121,201,79,120,172,194,150,150,242,149,119,25,235,148,78,70,200,215,95,204,143,155,241,126,97,34,180,171,119,90,187,76,115,175,234,13,76,103,166,149,74,97,62,179,196,246,119,50,246,172,48,58,29,177,88,77,196,223,79,249,121,121]
+Commitment: confirmed 
+
+
+
+
+
+To deploy this program:
+  $ solana program deploy /home/zaif/BLOCKCHAIN/NFT-Marketplace-Rust-Solana-master/program/target/deploy/nft_candy_machine.so
+The program address will default to this keypair (override with --program-id):
+  /home/zaif/BLOCKCHAIN/NFT-Marketplace-Rust-Solana-master/program/target/deploy/nft_candy_machine-keypair.json
+
+
+
+
+ CandyMachine Program Id: FqGBqRH8CreSPEERzauQMY3RZxcoVbG1v96LSDjBhSg3
